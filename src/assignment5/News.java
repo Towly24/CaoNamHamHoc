@@ -9,13 +9,7 @@ public class News implements INews{
     private float AverageRate;
     int[] RateList = new int[3];
 
-    public News(String title, String publishDate, String author, String content, int[] rateList) {
-        Title = title;
-        PublishDate = publishDate;
-        Author = author;
-        Content = content;
-        RateList = rateList;
-    }
+
 
     public int getID() {
         return ID;
@@ -61,13 +55,13 @@ public class News implements INews{
         return AverageRate;
     }
 
-    public float Calaculate(){
-        int tong = 0;
+    public void Calaculate(){
+        float tong = 0;
         for(int i = 0; i < RateList.length; i++){
             tong += RateList[i];
         }
         AverageRate = tong / RateList.length;
-        return AverageRate;
+
     }
     @Override
     public void display() {
