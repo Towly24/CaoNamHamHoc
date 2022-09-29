@@ -61,13 +61,13 @@ public class News implements INews{
         return AverageRate;
     }
 
-    public void Calaculate(){
+    public float Calaculate(){
         int tong = 0;
         for(int i = 0; i < RateList.length; i++){
             tong += RateList[i];
         }
         AverageRate = tong / RateList.length;
-
+        return AverageRate;
     }
     @Override
     public void display() {
