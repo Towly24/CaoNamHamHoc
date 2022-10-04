@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
@@ -20,19 +19,9 @@
             </font>
         </Text>
         <TextField fx:id="txtPhoneNumber" layoutX="50.0" layoutY="175.0" prefHeight="27.0" prefWidth="250.0" promptText="Phone Number " />
-        <Button layoutX="185.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleSubmit" prefHeight="27.0" prefWidth="114.0" text="Submit" />
-        <Text fx:id="fullName" layoutX="352.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="202.21630859375">
-            <font>
-                <Font size="17.0" />
-            </font>
-        </Text>
-        <Text fx:id="phoneNumber" layoutX="352.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="202.21630859375">
-            <font>
-                <Font size="17.0" />
-            </font>
-        </Text>
+        <Button layoutX="185.0" layoutY="350.0" mnemonicParsing="false" onAction="#addContract" prefHeight="27.0" prefWidth="114.0" text="Submit" />
         <Text fx:id="noticeFullName" fill="#d30d0d" layoutX="50.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
         <Text fx:id="noticePhoneNumber" fill="#d30d0d" layoutX="50.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
-        <TextArea fx:id="ngocNguNgoc" layoutX="343.0" layoutY="159.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="lv" layoutX="330.0" layoutY="39.0" prefHeight="320.0" prefWidth="250.0" />
     </children>
 </Pane>

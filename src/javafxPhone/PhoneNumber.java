@@ -4,12 +4,11 @@ import java.util.ArrayList;
 
 public class PhoneNumber {
     String name;
-    ArrayList<String> phone;
+    String phone;
 
-    public PhoneNumber(String name,String phone) {
+    public PhoneNumber(String name, String phone) {
         this.name = name;
-        this.phone = new ArrayList<>();
-        this.phone.add(phone);
+        this.phone = phone;
     }
 
     public String getName() {
@@ -20,8 +19,15 @@ public class PhoneNumber {
         this.name = name;
     }
 
-    public ArrayList<String> getPhone() {
+    public String getPhone() {
         return phone;
     }
 
+    public void setPhone(String phone){
+        this.phone = phone;
+    }
+
+    public String toString(){
+        return getName() + " - " + getPhone() + "\n";
+    }
 }

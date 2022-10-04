@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="assignment7.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="746.0" prefWidth="995.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="table" layoutX="434.0" layoutY="18.0" prefHeight="654.0" prefWidth="527.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="201.0" text="Sinh viên" />
+          <TableColumn fx:id="emailColumn" prefWidth="209.0" text="Email" />
+            <TableColumn fx:id="pointColumn" prefWidth="116.0" text="Điểm" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtName" layoutX="76.0" layoutY="91.0" promptText="Nhập họ và tên...." />
+      <TextField fx:id="txtEmail" layoutX="76.0" layoutY="179.0" promptText="Nhập email...." />
+      <Text layoutX="76.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Họ và tên" />
+      <TextField fx:id="txtPoint" layoutX="76.0" layoutY="270.0" promptText="Nhập điểm...." />
+      <Text layoutX="75.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="98.0" />
+      <Text layoutX="79.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Điểm" wrappingWidth="90.91455078125" />
+      <Button onAction="#add" layoutX="121.0" layoutY="354.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="98.0" text="Submit" />
+      <Text fill="#fb0000" layoutX="67.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="207.0" />
+   </children>
+</Pane>
