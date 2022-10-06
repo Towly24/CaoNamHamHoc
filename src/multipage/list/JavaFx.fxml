@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="multipage.list.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView layoutX="22.0" layoutY="75.0" prefHeight="438.0" prefWidth="547.0" />
+      <Button onAction="#goToForm" layoutX="471.0" layoutY="19.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="98.0" text="Add a " />
+   </children>
+</Pane>

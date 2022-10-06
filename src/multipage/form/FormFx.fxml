@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="multipage.form.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#backToList" layoutX="41.0" layoutY="22.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="95.0" text="Back to List" />
+      <TextField layoutX="114.0" layoutY="90.0" prefHeight="72.0" prefWidth="373.0" promptText="Mã môn">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="114.0" layoutY="226.0" prefHeight="72.0" prefWidth="373.0" promptText="Tên môn">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="114.0" layoutY="342.0" prefHeight="77.0" prefWidth="373.0" promptText="Giờ học">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>
