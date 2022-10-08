@@ -28,7 +28,7 @@ public class Flight {
         this.destination = destination;
     }
     public void display(){
-        if(getNumber() == 0){
+        if(getNumber() == 0 || getDestination() == ""){
             System.out.println(0);
         }else {
             System.out.println(getNumber() + ", " +getDestination());

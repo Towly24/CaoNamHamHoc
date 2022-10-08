@@ -6,5 +6,6 @@ public class Main {
         g1.display();
         Flight g = new Flight();
         g.display();
+
     }
 }
