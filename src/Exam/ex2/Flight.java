@@ -28,6 +28,11 @@ public class Flight {
         this.destination = destination;
     }
     public void display(){
-        System.out.println(getNumber() + ", " +getDestination());
+        if(getNumber() == 0){
+            System.out.println(0);
+        }else {
+            System.out.println(getNumber() + ", " +getDestination());
+
+        }
     }
 }
