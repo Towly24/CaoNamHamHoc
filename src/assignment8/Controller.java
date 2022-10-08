@@ -70,7 +70,7 @@ public class Controller implements Initializable {
         Scene scene = new Scene(subjectViewParent);
         FormController controller = loader.getController();
         Subject selected = table.getSelectionModel().getSelectedItem();
-        controller.setSubject(selected);
+//        controller.setSubject(selected);
         stage.setScene(scene);
     }
 
